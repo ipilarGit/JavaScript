@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Desafio Dos - Cambiando Elemento Distinto v3</title>
+</head>
+
+<body>
+
+     <p class="parrafo" onclick="colorUno()"> 1</p>
+     <p class="parrafo" onclick="colorDos()"> 2 </p>
+     <p class="parrafo" onclick="colorTres()"> 3 </p>
+     <p class="parrafo" onclick="colorCuatro()"> 4 </p>
+
+
+     <script>
+
+          function colorUno(parrafo) {
+               var parrafo = document.getElementsByClassName("parrafo");
+               parrafo[0].style.color = "red";
+          }
+          function colorDos(parrafo) {
+               var parrafo = document.getElementsByClassName("parrafo");
+               parrafo[1].style.color = "blue";
+          }
+          function colorTres(parrafo) {
+               var parrafo = document.getElementsByClassName("parrafo");
+               parrafo[2].style.color = "green";
+          }
+          function colorCuatro(parrafo) {
+               var parrafo = document.getElementsByClassName("parrafo");
+               parrafo[3].style.color = "purple";
+          }
+
+     </script>
+
+
+
+</body>
+
+</html>
